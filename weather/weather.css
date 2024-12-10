@@ -29,6 +29,7 @@ main {
     box-shadow: 0 30px 50px #5553;
     padding: 30px;
     box-sizing: border-box;
+    margin-left: 280px;
 }
 main form {
     border: 1px solid #5552;
@@ -74,6 +75,11 @@ main ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+}
+
+#chatbotContent {
+    display: block;
+    margin: -70px -360px;
 }
 main li {
     background-color: #f78a55;
